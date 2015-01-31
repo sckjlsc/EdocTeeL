@@ -1,0 +1,34 @@
+https://github.com/sckjlsc/EdocTeeL.git
+
+1) Create a new repository on the command line
+
+touch README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/guochy2012/test.git
+git push -u origin master
+Push an existing repository from the command line
+
+git remote add origin https://github.com/guochy2012/test.git
+git push -u origin master
+
+如果采用SSH：
+Create a new repository on the command line
+
+touch README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:guochy2012/test.git
+git push -u origin master
+Push an existing repository from the command line
+
+git remote add origin git@github.com:guochy2012/test.git
+git push -u origin master
+
+2)generate ssh
+ls -al ~/.ssh
+
+ssh-agent -s
+ssh-add ~/.ssh/id_rsa
